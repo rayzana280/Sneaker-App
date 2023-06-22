@@ -7,7 +7,7 @@ function Selection ({shoeData}){
         <div>
             <p>GET THE SNEAKERS FOR YOU</p>
             {shoeData.map((item)=>{
-                return <ShoeCard key={item.name}/>
+                return <ShoeCard key={item.name} name={item.name} color={item.color} image={item.image}/>
             })}
         </div>
     )
