@@ -16,6 +16,11 @@ function App() {
     .then((data)=> stateShoeData(data))
   }, [])
   //console.log(shoeData)
+
+  function addData(newData){
+    stateShoeData([...shoeData, newData])
+  }
+
   return (
     <div>
       <NavBar />
@@ -24,7 +29,7 @@ function App() {
           <Selection shoeData={shoeData} />
         </Route>
         <Route path="/sell">
-          <Sell />
+          <Sell addData={addData}/>
         </Route>
         <Route exact path="/">
           <Home />
