@@ -33,19 +33,22 @@ function Sell({addData}){
     }
 
     return(
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="formClass">
             <h1>Sell Your Sneakers And Get Your Money!</h1>
-            <label>Name of Shoe</label>
+            <label>Name of Shoe:</label>
             <input type="text" value={shoeName} onChange={(e)=> stateShoeName(e.target.value)}/>
-            <label>ColorWay of Shoe</label>
+            <label>Color Way of Shoe:</label>
             <input type="text" value={colorWay} onChange={(e)=> stateColorWay(e.target.value)}/>
-            <label>Price</label>
+            <label>Price:</label>
             <input type="text" value={shoePrice} onChange={(e)=> stateShoePrice(e.target.value)}/>
-            <label>Image of Shoe</label>
+            <label>URL Image of Shoe:</label>
             <input type="text" value={shoeImage} onChange={(e)=> stateShoeImage(e.target.value)}/>
-            <label>Email</label>
+            <label>Email:</label>
             <input type="text" value={sellerEmail} onChange={(e)=> stateSellerEmail(e.target.value)}/>
             <button type="submit">Submit</button>
+            <p>Make sure all the information is correct and we'll reach out to you once you have a buyer!</p>
+            <h5>With Love</h5>
+            <h5>Sneaker Up</h5>
         </form>
     )
 };
