@@ -6,6 +6,7 @@ import Sell from "./components/Sell";
 import NavBar from "./components/NavBar"
 import { Route, Switch } from "react-router-dom";
 import React, {useState, useEffect} from "react";
+import Cart from "./components/Cart";
 
 function App() {
   const [shoeData, stateShoeData] = useState([])
@@ -32,10 +33,23 @@ function App() {
     stateShoeData(updatedItems);
   }
 
+  const cart = shoeData.filter((item)=>{
+    if(item.inCart.toString() !== "false"){
+      return item
+    }
+  })
+
+  //console.log(cart)
+
   return (
     <div>
       <NavBar />
       <Switch>
+        <Route path="/cart">
+          {cart.map((item)=>{
+            return <Cart key={item.id} item={item} cartUpdate={cartUpdate} inCart={item.inCart}/>
+          })}
+        </Route>
         <Route path="/selection">
           <Selection shoeData={shoeData} cartUpdate={cartUpdate} />
         </Route>
