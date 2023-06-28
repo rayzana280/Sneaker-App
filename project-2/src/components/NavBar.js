@@ -17,6 +17,7 @@ function NavBar(){
             <NavLink exact to="/" style={linkStyles} activeStyle={{background: "green"}}> HOME </NavLink>
             <NavLink to= "/selection" style={linkStyles} activeStyle={{background: "green"}}> SELECTION</NavLink>
             <NavLink to="/sell" style={linkStyles}  activeStyle={{background: "green"}}> SELL </NavLink>
+            <NavLink to="/cart" style={linkStyles} activeStyle={{background: "green"}}> CART </NavLink>
         </div>
     )
 }
