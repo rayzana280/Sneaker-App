@@ -8,14 +8,25 @@ import { Route, Switch } from "react-router-dom";
 import React, {useState, useEffect} from "react";
 import Cart from "./components/Cart";
 
+//you will need to have login or sign up because if user doesnt use a email saved in the database then error will come
+
 function App() {
   const [shoeData, stateShoeData] = useState([])
+  const [userData, stateUserData] = useState([])
 
   useEffect(()=>{
-    fetch("http://localhost:3000/shoe")
+    fetch("http://localhost:9292/shoes")
     .then((res) => res.json())
     .then((data)=> stateShoeData(data))
   }, [])
+
+  useEffect(()=>{
+    // use this data to get the user_id for the foreign key 
+    fetch("http://localhost:9292/user")
+    .then((respond)=> respond.json())
+    .then((data)=> stateUserData(data))
+  }, [])
+
   //console.log(shoeData)
 
   function addData(newData){
@@ -39,7 +50,6 @@ function App() {
     }
   })
 
-  //console.log(cart)
 
   return (
     <div>
@@ -54,7 +64,7 @@ function App() {
           <Selection shoeData={shoeData} cartUpdate={cartUpdate} />
         </Route>
         <Route path="/sell">
-          <Sell addData={addData}/>
+          <Sell addData={addData} userData={userData}/>
         </Route>
         <Route exact path="/">
           <Home />
