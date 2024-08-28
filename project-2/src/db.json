@@ -1,0 +1,114 @@
+{
+  "shoe": [
+    {
+      "id": "1",
+      "name": "Black Cat",
+      "shoeSize": "6",
+      "color": "black",
+      "price": "300",
+      "seller": "anemail@email.com",
+      "image": "https://www.nicekicks.com/files/2019/11/leadOliviaKimxAirJordan4-11-6-robmata-1-1200x640.jpg",
+      "inCart": false
+    },
+    {
+      "id": "2",
+      "name": "Bred Toe",
+      "shoeSize": "9",
+      "color": "red, black, white",
+      "price": "500",
+      "seller": "anotheremail@thisemail.com",
+      "image": "https://m.media-amazon.com/images/I/71Lvsa8HHrL._AC_UY1000_.jpg",
+      "inCart": false
+    },
+    {
+      "id": "bd7d5272-bb4a-4ff7-866b-00687237b996",
+      "name": "Yeezy Slides ",
+      "shoeSize": "8",
+      "color": "Egg White",
+      "price": "100",
+      "seller": "anotherone@email.com",
+      "image": "https://images.stockx.com/images/Yeezy-Slide-Bone-Product.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&fm=jpg&auto=compress&dpr=2&trim=color&updated_at=1608522495&q=75",
+      "inCart": false
+    },
+    {
+      "id": "62be2fbb-36af-4058-95a4-a39c95d21b33",
+      "name": "Jordan 3 white cement ",
+      "shoeSize": "8",
+      "color": "white, gray ",
+      "price": "400",
+      "seller": "ray@email.com",
+      "image": "https://m.media-amazon.com/images/I/71PkpSxlQ7L._AC_UY1000_.jpg",
+      "inCart": false
+    },
+    {
+      "id": "557de973-74fd-4578-9b8e-906d58ca1b52",
+      "name": "Jordan 11 bred",
+      "shoeSize": "10",
+      "color": "red, black ",
+      "price": "400",
+      "seller": "jay@email.com",
+      "image": "https://s3.amazonaws.com/images.kicksfinder.com/products/large/31d2830fadaa6cfcfbaa777681543a3c_1573758905.jpg",
+      "inCart": false
+    },
+    {
+      "id": "d41fdc94-1a57-4824-8058-dc6ae811d744",
+      "name": "Jordan 3 Wizard ",
+      "shoeSize": "5",
+      "color": "white, blue ",
+      "price": "400",
+      "seller": "mely@email.com",
+      "image": "https://2app.kicksonfire.com/kofapp/upload/events_images/ipad_air-jordan-3-wizards-0.jpeg",
+      "inCart": false
+    },
+    {
+      "id": "ba9720ff-d0cc-458c-8ebe-680268f87f0c",
+      "name": "Nike Dunks Panda ",
+      "shoeSize": "8",
+      "color": "white, black ",
+      "price": "400",
+      "seller": "jay@email.com",
+      "image": "https://sneakernews.com/wp-content/uploads/2022/01/nike-dunk-low-panda-2022-restock-dd1391-100-lead.jpg",
+      "inCart": false
+    },
+    {
+      "id": "f807dff8-91b5-409d-b829-74b2eb7a9dfd",
+      "name": "Jordan 4 Bred ",
+      "shoeSize": "7",
+      "color": "Black, red, gray",
+      "price": "500",
+      "seller": "rosa@gmail.com",
+      "image": "https://image.goat.com/attachments/product_template_additional_pictures/images/079/306/462/medium/461782_08.jpg.jpeg?1665421905",
+      "inCart": true
+    },
+    {
+      "id": "94f8a47e-f133-43cf-b038-21706f9cda74",
+      "name": "Jordan 1 Royal Toes ",
+      "shoeSize": "5",
+      "color": "Blue, White, Black",
+      "price": "300",
+      "seller": "neyser@email.com",
+      "image": "https://m.media-amazon.com/images/I/61xVuKFC-HL._AC_UY1000_.jpg",
+      "inCart": false
+    },
+    {
+      "id": "e2849cae-2d8f-49f8-9375-51586f949f21",
+      "name": "Jordan 11 Cool Grey",
+      "shoeSize": "4",
+      "color": "Grey, white",
+      "price": "200",
+      "seller": "zana@email.com",
+      "image": "https://dlxsneakers.com/cdn/shop/products/1_f3328185-5a17-4f33-96b8-3b33955c1af2.webp?v=1679290346",
+      "inCart": false
+    },
+    {
+      "id": "e3eae54f-aec9-49fe-acaa-7d61c67e7bc8",
+      "name": "White Air Force 1",
+      "shoeSize": "7",
+      "color": "White ",
+      "price": "100",
+      "seller": "rayzana@email.com",
+      "image": "https://img.buzzfeed.com/buzzfeed-static/complex/images/iot1dbjmzr7z6kfkoxrb/nike-air-force-1-lead-1.png?output-format=jpg&output-quality=auto",
+      "inCart": false
+    }
+  ]
+}

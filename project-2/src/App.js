@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from "./components/Home";
 import Selection from "./components/Selection";
@@ -9,7 +9,7 @@ import React, {useState, useEffect} from "react";
 import Cart from "./components/Cart";
 
 //you will need to have login or sign up because if user doesnt use a email saved in the database then error will come
-
+// add all the commits so git would know what to upload 
 function App() {
   const [shoeData, stateShoeData] = useState([])
   const [userData, stateUserData] = useState([])
